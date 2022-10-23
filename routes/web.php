@@ -17,3 +17,6 @@ Route::get('/', function () {
     echo "hi";
     return view('welcome');
 });
+
+
+Route::view('/vv', 'welcome');
